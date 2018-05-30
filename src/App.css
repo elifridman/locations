@@ -1,0 +1,134 @@
+.App {
+  /* text-align: center; */
+  padding-top: 70px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*Top Bar*/
+
+.top-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+}
+.top-bar.nav {
+  background-color: #000000;
+
+}
+.top-bar.nav a{
+  color:#ffffff;
+}
+.top-bar.nav a h1{
+  font-size: 1.2rem;
+}
+
+/*Actions Bar*/
+
+.actions-bar{
+  width: 100%;
+  z-index: 999;
+}
+.actions-bar .navbar{
+  background-color: #000000;
+  min-height: 65px;
+}
+.actions-bar .navbar-brand{
+  color:#17a2b8;
+  font-size:1rem;
+}
+
+/*location list*/
+.location-list{
+
+}
+.location-list .label-list{
+  border:none;
+}
+.location-list .select-category{
+  min-width:25%;
+}
+.location-list .badgeWrapper{
+
+}
+.location-list .badge{
+  margin: 0.2rem;
+  font-size: 15px;
+  padding: 12px;
+  position: relative;
+
+}
+.location-list .close-badge{
+  position: absolute;
+    top: -2px;
+    right: 3px;
+    cursor: pointer;
+}
+
+/*category list*/
+.category-list{
+
+}
+.category-list .label-list{
+  border:none;
+}
+.category-list .select-category{
+  min-width:25%;
+}
+
+/*location form*/
+.location-form .badge{
+  margin: 0.2rem;
+  font-size: 15px;
+  padding: 12px;
+  position: relative;
+
+}
+.location-form .close-badge{
+  position: absolute;
+    top: -2px;
+    right: 3px;
+    cursor: pointer;
+}
+
+/*location-info*/
+.location-info .info-title{
+  font-size:14px;
+}
+
+
+/*footer */
+.footer{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+}
+.footer img{
+  width:30px;
+  height:30px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
